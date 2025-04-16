@@ -1,5 +1,11 @@
 @import './base.css';
-
+html body{
+  font-size: 1.1rem;
+  
+}
+body p{
+  font-size:1.1rem;
+}
 .nav-item a{
   background-color: #fff;
   margin-right: 10px;

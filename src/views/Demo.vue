@@ -1,8 +1,46 @@
 <template>
  
   <div class="container mt-5">
-    <div class="card shadow p-4">
-      <h1 class="text-dark mb-3">chat gpt 問答</h1>
+     <div class="card shadow p-5 mb-5">
+       <div class="row">
+         <div class="col-6">
+            <div class="card h-100" style="max-width: 530px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/img/w.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text">運用中央氣象局開放資料平台 串接API 製作天氣小卡</p>
+                    <a href="https://pinghsinhuang.github.io/Weather_Card/" class="btn btn-sm btn-dark">連結</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card h-100" style="max-width: 530px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="https://pingjejovup.github.io/sushiro_web_practice/img/bgimg/about_img.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text"> 
+                      運用壽司郎原有卡通素材，重新設計一個台灣區一頁式官網<br>
+                      html、scss 獨立切版
+                    </p>
+                    <a href="https://pingjejovup.github.io/sushiro_web_practice" class="btn btn-sm btn-dark">連結</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class="card shadow p-5">
+      <h2 class="text-dark mb-3">chat gpt 問答</h2>
       <div class="row mb-3">
         <div class="col-4"> 
         <label for="modeSelect" class="form-label">選擇回答模式：</label>
@@ -26,6 +64,9 @@
           <p>{{ reply }}</p>
         </div>
     </div>
+
+   
+   
   </div>
 </template>
 
