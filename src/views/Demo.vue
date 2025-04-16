@@ -17,8 +17,9 @@
 
         </div>
       </div>
-     
-        <button @click="askGPT" class="btn btn-primary mt-2">送出</button>
+     <div class="col-12 text-end">
+       <button @click="askGPT" class="btn btn-dark mt-2">送出</button>
+     </div>
 
         <div class="mt-3" v-if="reply">
           <h5>AI 回答：</h5>
@@ -58,7 +59,7 @@ export default {
       switch (this.selectedMode) {
        
         case 'art':
-          return '請用有創意有趣的方式，回答以下問題：';
+          return '請用有創意有趣的方式，50字以內，回答以下問題：';
         case 'normal':
         default:
           return '';
