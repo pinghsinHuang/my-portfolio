@@ -26,7 +26,7 @@ exports.handler = async (event, context) => {
     });
 
     const data = await response.json();
-
+console.error("❌OpenAI 原始回應：", data);
     if (!data.choices || !data.choices[0]) {
       return {
         statusCode: 502,
