@@ -2,7 +2,7 @@
  
   <div class="container mt-5">
     <div class="card shadow p-4">
-      <h1 class="text-primary mb-3">AI 小助手：我適合這份工作的理由？</h1>
+      <h1 class="text-primary mb-3">AI small chat</h1>
        <input v-model="question" class="form-control" placeholder="輸入你的問題..." />
         <button @click="askGPT" class="btn btn-primary mt-2">送出</button>
 
