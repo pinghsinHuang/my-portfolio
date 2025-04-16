@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
-    <div class="card shadow p-4">
-      <h1 class="text-primary mb-3">我能為公司做些什麼？</h1>
+    <div class="card shadow p-5">
+      <h2 class="h2 mb-3">我能為公司做些什麼？</h2>
       <p>我了解到貴公司近期在 AI 產品與互動前端上有卓越成長，尤其在 XX 產品線上的年增長率表現亮眼...</p>
     <p>因此我認為自己在以下幾方面可以為團隊帶來貢獻：</p>
       <ul class="list-unstyled">

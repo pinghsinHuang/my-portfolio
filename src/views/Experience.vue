@@ -1,15 +1,16 @@
 <template>
  
   <div class="container mt-5">
-    <div class="card shadow p-4">
-      <h1 class="text-primary mb-3">工作經驗與技能</h1>
+    <div class="card shadow p-5">
+      <h2 class="h2 mb-3">主要專案經驗</h2>
       <p class="lead">
         I’m a front-end engineer who enjoys building user-friendly web apps using Vue.js, Rails, and modern tools.
       </p>
       <ul class="list-unstyled">
-         <li>📌4+ 年前端經驗（Vue.js、HTML/CSS/JS）</li>
-      <li>📌Rails 後台 CRUD、API 串接</li>
-      <li>📌有獨立開發與 UI 設計經驗</li>
+      <li>📌Rails 獨立開發前端 UI 設計經驗</li>
+      <li>📌Rails 後台管理功能開發</li>
+      <li>📌協助通過網頁無障礙規範、優化SEO</li>
+      <li>📌協助通過網頁無障礙規範、優化SEO</li>
       </ul>
       <div class="row">
         <div class="col-6">
