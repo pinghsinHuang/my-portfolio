@@ -1,12 +1,17 @@
-// netlify/functions/openai.js
-
-const fetch = (...args) =>
-  import('node-fetch').then(({ default: fetch }) => fetch(...args));
+const fetch = require('node-fetch');
 
 exports.handler = async (event, context) => {
   try {
     console.log('Function triggered');
-    const { message } = JSON.parse(event.body);
+
+    const { message } = JSON.parse(event.body || '{}');
+
+    if (!message || message.trim() === '') {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: '請輸入問題內容' }),
+      };
+    }
 
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
@@ -22,14 +27,19 @@ exports.handler = async (event, context) => {
 
     const data = await response.json();
 
-    console.log('OpenAI response:', data);
+    if (!data.choices || !data.choices[0]) {
+      return {
+        statusCode: 502,
+        body: JSON.stringify({ error: 'OpenAI 回應格式錯誤' }),
+      };
+    }
 
     return {
       statusCode: 200,
       body: JSON.stringify({ reply: data.choices[0].message.content }),
     };
   } catch (err) {
-    console.error('Function error:', err);
+    console.error('❌ Server error:', err);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: err.message || 'Internal Server Error' }),

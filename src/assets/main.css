@@ -25,4 +25,7 @@ header{
 
 h2.h2{
   color: rgb(56, 78, 87);
+  padding-bottom: 15px;
+  border-bottom: 2px solid #89a6ad;
+  margin-bottom: 25px;
 }
