@@ -7,32 +7,29 @@
         2018 年畢業於國立中興大學水土保持學系，後來對科技與網頁開發產生濃厚興趣，於 2020 年開始上課與自學前端技術，並成功轉職為前端工程師。投身於程式碼的世界後，我享受迎接新挑戰的過程，並熱衷於產出令客戶滿意的成果，從中獲得成就感。工作中也從中學習 UI/UX 設計，致力於優化用戶體驗。展望未來，我期望成為一名更具專業與經驗的前端工程師，能夠解決更多複雜的問題，持續擁抱技術創新。
       </p>
       <div class="timeline">
-  <h2 class="timeline-title">工作經歷</h2>
-
-  <div class="timeline-item">
-    <div class="timeline-number">1</div>
-    <div class="timeline-content">
-      <h3>前端工程師</h3>
-      <p>良知股份有限公司（2020–現在）</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-number">2</div>
-    <div class="timeline-content">
-      <h3>水保工程技師助理</h3>
-      <p>天琛開發有限公司（2018–2019）</p>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-number">3</div>
-    <div class="timeline-content">
-      <h3>政府職業訓練</h3>
-      <p>跨平台網站前端實作班（2019）</p>
-    </div>
-  </div>
-</div>
+        <h2 class="timeline-title">工作經歷</h2>
+        <div class="timeline-item">
+          <div class="timeline-number">1</div>
+          <div class="timeline-content">
+            <h3>前端工程師</h3>
+            <p>良知股份有限公司（2020–現在）</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">2</div>
+          <div class="timeline-content">
+            <h3>水保工程技師助理</h3>
+            <p>天琛開發有限公司（2018–2019）</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-number">3</div>
+          <div class="timeline-content">
+            <h3>政府職業訓練</h3>
+            <p>跨平台網站前端實作班（2019）</p>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
