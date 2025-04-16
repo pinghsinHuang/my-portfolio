@@ -22,3 +22,7 @@ header{
   object-fit: cover;
   object-position: center;
 }
+
+h2.h2{
+  color: rgb(56, 78, 87);
+}
